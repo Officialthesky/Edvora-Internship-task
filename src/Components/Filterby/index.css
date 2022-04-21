@@ -1,0 +1,23 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 20px;
+}
+.filters p {
+  color: #a5a5a5;
+}
+.filters select {
+  background-color: #232323;
+  height: 38px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 5px;
+  color: #ffffff;
+  padding: 6px;
+  width: 100%;
+}
+option {
+  color: #ffffff;
+}

@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: #101010;
+  height: 84px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.companyName {
+  padding: 21px 0px 20px 43px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.profileName {
+  padding-right: 20px;
+}
+.profileImg {
+  width: 44px;
+  height: 44px;
+  background-color: antiquewhite;
+  border-radius: 22px;
+  margin-right: 20px;
+}
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+}

@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.tabs {
+  width: 100%;
+  background-color: #333333;
+  padding-bottom: 40px;
+  min-height: 100vh;
+  position: relative;
+}
+.tabHeader {
+  height: 81px;
+  background-color: #333333;
+}
+.leftTabHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 80px;
+}
+.leftTabHeader p {
+  cursor: pointer;
+  font-weight: 300;
+  text-align: center;
+  height: 40px;
+}
+.rightTabHeader {
+  flex: 3;
+  text-align: right;
+  padding-right: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.filterIcon {
+  padding-right: 8px;
+}
+.filterby {
+  background-color: #131313;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  z-index: 1;
+  position: absolute;
+  right: 50px;
+}
+.filterWithData {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
